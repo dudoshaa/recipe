@@ -48,6 +48,7 @@ body {
   width: 100%;
   max-width: 736px;
   margin: 0 auto;
+  padding: 40px;
   background-color: #fff;
 }
 .site-image {
@@ -55,4 +56,3 @@ body {
   justify-content: center;
   padding: 40px;
 }
-

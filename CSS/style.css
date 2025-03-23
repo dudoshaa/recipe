@@ -49,10 +49,94 @@ body {
   max-width: 736px;
   margin: 0 auto;
   padding: 40px;
+  padding-bottom: 0;
   background-color: #fff;
 }
+.title {
+  font-family: "Young Serif";
+}
+
+/* HEADER */
+
 .site-image {
   display: flex;
   justify-content: center;
-  padding: 40px;
+}
+
+/* SECTION 1 */
+
+.hero {
+  color: #312e2c;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 40px;
+}
+.hero-suptitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* SECTION 2 */
+.Preparation {
+  font-size: 16px;
+}
+.Preparation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Preparation-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: #7a284e;
+}
+.Preparation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  color: #7a284e;
+}
+.Prepparation-item span {
+  color: #5f564d;
+  font-weight: 400;
+}
+.Prepparation-item strong {
+  font-weight: 700;
+}
+/* SECTION 3 */
+
+.Ingredients-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Ingredients-title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1;
+  color: #854632;
+}
+ul{
+  padding-left: 8px;
+}
+.Ingredients-list {
+  color: #854632;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ingredients-item {
+ 
+}
+.ingredients-item span{
+  color: #5F564D;
 }

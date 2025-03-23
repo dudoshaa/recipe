@@ -43,13 +43,13 @@ a {
 body {
   font-family: "Outfit";
   background-color: #f3e5d7;
+  padding: 128px;
 }
 .container {
   width: 100%;
   max-width: 736px;
   margin: 0 auto;
   padding: 40px;
-  padding-bottom: 0;
   background-color: #fff;
 }
 .title {
@@ -147,8 +147,6 @@ body {
 
 /* SECTION 4 */
 
-.Instructions {
-}
 .Instructions-container {
   display: flex;
   flex-direction: column;
@@ -178,8 +176,7 @@ body {
 }
 
 /* SECTION 5 */
-.Nutrition {
-}
+
 .Nutrition-container {
   display: flex;
   flex-direction: column;
@@ -198,31 +195,39 @@ body {
   line-height: 1.5;
   color: #5f564d;
 }
-.Nutrition-data {
+.nutrition table {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 16px;
-}
-.Nutrition-data tr {
-  border-bottom: 1px solid #e3ddd7;
-}
-.Nutrition-data tr:last-child {
-  border-bottom: none;
-}
-tr {
-  padding-left: 32px;
-  padding-right: 32px;
+  overflow: hidden;
 }
 
-.Nutrition-label {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #5f564d;
+.nutrition table tbody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
 }
-.Nutrition-info {
+
+.nutrition table tr {
+  display: flex;
+  gap: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-bottom: 1px solid #e3ddd7;
+}
+
+.nutrition table tr td {
+  width: 288px;
+}
+
+.nutrition table tr td:last-child {
+  font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
+  letter-spacing: 0%;
   color: #854632;
 }

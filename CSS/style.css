@@ -85,11 +85,13 @@ body {
 /* SECTION 2 */
 .Preparation {
   font-size: 16px;
+  
 }
 .Preparation-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color:#FFF7FB;
 }
 
 .Preparation-title {
@@ -112,6 +114,7 @@ body {
 .Prepparation-item strong {
   font-weight: 700;
 }
+
 /* SECTION 3 */
 
 .Ingredients-container {
@@ -125,9 +128,6 @@ body {
   line-height: 1;
   color: #854632;
 }
-ul{
-  padding-left: 8px;
-}
 .Ingredients-list {
   color: #854632;
   display: flex;
@@ -135,8 +135,94 @@ ul{
   gap: 8px;
 }
 .ingredients-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ingredients-item span {
+  color: #5f564d;
+}
+.line {
+  border: 1px solid #e3ddd7;
+}
+
+/* SECTION 4 */
+
+.Instructions {
+}
+.Instructions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Instruction-title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1;
+  color: #854632;
+}
+
+.Instruction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #854632;
+}
+.Instruction-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Instruction-item span {
+  color: #5f564d;
+}
+
+/* SECTION 5 */
+.Nutrition {
+}
+.Nutrition-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Nutrition-title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1;
+  color: #854632;
+}
+.Nutrition-suptitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5f564d;
+}
+.Nutrition-data {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
  
 }
-.ingredients-item span{
-  color: #5F564D;
+.Nutrition-data tr {
+  border-bottom: 1px solid #e3ddd7;
+}
+.Nutrition-data tr:last-child {
+  border-bottom: none;
+}
+.Nutrition-row {
+}
+
+.Nutrition-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5f564d;
+}
+.Nutrition-info {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #854632;
 }
